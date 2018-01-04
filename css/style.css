@@ -673,7 +673,7 @@ figure {
 }
 
 #fh5co-started {
-    position: relative;
+    position: center;
     background-size: contain;
     background-position: bottom center;
     background-repeat: no-repeat; 
