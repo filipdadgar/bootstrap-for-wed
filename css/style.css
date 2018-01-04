@@ -681,8 +681,8 @@ figure {
 }
 
 #fh5co-started {
-    position: relative;
-    background-size: cover;
+    position: absolute;
+    background-size:  auto;
     background-position: bottom center;
     background-repeat: no-repeat;
 }
@@ -768,7 +768,6 @@ figure {
   margin-bottom: 20px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
 }
 
