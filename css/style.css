@@ -676,9 +676,9 @@ figure {
 
 #fh5co-started {
     background-size: cover;
-    background-position: bottom center;
+    /*    background-position: bottom center;
     background-repeat: no-repeat;
-    position: relative;
+    position: relative; */
 }
 
 #fh5co-started .overlay {
