@@ -169,7 +169,7 @@ figure {
 }
 
 .fh5co-cover {
-    background-size: contain;
+    background-size: cover;
     position: relative;
     background-repeat: no-repeat;
     background-position: center center;
@@ -183,17 +183,17 @@ figure {
 }
 
 .fh5co-cover .display-t {
-  display: table;
-  height: 800px;
-  width: 100%;
-  position: relative;
-  z-index: 2;
+    display: table;
+    /*  height: 800px;
+  width: 100%; */
+    position: relative;
+    z-index: 2;
 }
 
 @media screen and (max-width: 768px) {
-  .fh5co-cover .display-t {
-    height: 600px;
-  }
+    .fh5co-cover .display-t {
+        /* height: 600px; */
+    }
 }
 
 .fh5co-cover .display-tc {
@@ -677,7 +677,7 @@ figure {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    position: page ;
+    position: relative ;
 }
 
 #fh5co-started .overlay {
