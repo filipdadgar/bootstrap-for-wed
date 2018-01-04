@@ -172,8 +172,7 @@ figure {
     background-size: contain;
     position: relative;
     background-repeat: no-repeat;
-    background-image: url(images/cover_bg_2);
-}
+    }
 
 @media screen and (max-width: 768px) {
   .fh5co-cover {
@@ -675,10 +674,9 @@ figure {
 
 #fh5co-started {
     position: center;
-    background-size: contain;
-    background-position: bottom center;
+    background-size: cover;
+    /* background-position: bottom center;*/
     background-repeat: no-repeat;
-    background-size: 700px 500px;
 }
 
 #fh5co-started .overlay {
