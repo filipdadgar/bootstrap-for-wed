@@ -13,13 +13,14 @@
 *
 * ======================================================= */
 body {
-  font-family: "Open Sans", Arial, sans-serif;
-  line-height: 1.6;
-  font-size: 16px;
-  background: #fff;
-  color: #848484;
-  font-weight: 300;
-  overflow-x: hidden;
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    background: #fff;
+    color: #848484;
+    font-weight: 300;
+    overflow-x: hidden;
+    position: fixed
 }
 
 body.fh5co-offcanvas {
