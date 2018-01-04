@@ -681,8 +681,8 @@ figure {
 }
 
 #fh5co-started {
-    position: absolute;
-    background-size: auto;
+    position: relative;
+    background-size: cover;
     /*   background-position: bottom center;
      background-repeat: no-repeat; */
 }
