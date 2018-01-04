@@ -675,7 +675,7 @@ figure {
 
 #fh5co-started {
     position: relative;
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
