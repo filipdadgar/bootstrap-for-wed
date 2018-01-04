@@ -172,7 +172,7 @@ figure {
     background-size: contain;
     position: relative;
     background-repeat: no-repeat;
-    background-size: 700px 500px;
+    background-image: url(images/cover_bg_2);
 }
 
 @media screen and (max-width: 768px) {
