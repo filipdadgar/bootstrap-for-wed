@@ -172,6 +172,7 @@ figure {
     background-size: contain;
     position: relative;
     background-repeat: no-repeat;
+    background-size: 100px 80px;
 }
 
 @media screen and (max-width: 768px) {
@@ -676,7 +677,8 @@ figure {
     position: center;
     background-size: contain;
     background-position: bottom center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    background-size: 100px 80px;
 }
 
 #fh5co-started .overlay {
