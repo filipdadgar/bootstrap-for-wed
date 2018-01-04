@@ -171,7 +171,7 @@ figure {
 }
 
 .fh5co-cover {
-  background-size: cover;
+  background-size: contain;
   position: relative;
 }
 
@@ -681,12 +681,9 @@ figure {
 
 #fh5co-started {
     position: relative;
-    background-size: cover;
+    background-size: contain;
     background-position: bottom center;
     background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    
 }
 
 #fh5co-started .overlay {
