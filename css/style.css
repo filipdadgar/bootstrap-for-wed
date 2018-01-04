@@ -172,8 +172,8 @@ figure {
     /*  background-size: cover; */
     background-size: 100% 100%;
     position: relative;
-    background-repeat: no-repeat;
-    background-position: center center;
+    /*  background-repeat: no-repeat;
+    background-position: center center; */
 }
 
 @media screen and (max-width: 768px) {
@@ -676,7 +676,7 @@ figure {
 
 #fh5co-started {
     background-size: 100% 100%;
-    background-position: center center;
+    background-position: bottom center;
     background-repeat: no-repeat;
     position: relative;
 }
