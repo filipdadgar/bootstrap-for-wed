@@ -675,10 +675,14 @@ figure {
 #fh5co-started {
     position: relative;
     background-size: cover;
-    height: auto;
-    width: auto;
     /*   background-position: bottom center;
      background-repeat: no-repeat; */
+    position: fixed; /* stretch a fixed position to the whole screen */
+    top: 0;
+    height: 100vh; /* fix for mobile browser address bar appearing disappearing */
+    left: 0;
+    right: 0;
+    z-index: -1; /* needed to keep in the background */
 }
 
 #fh5co-started .overlay {
@@ -1256,3 +1260,4 @@ figure {
   z-index: 9999;
   background: url(../images/hourglass.svg) center no-repeat #222222;
 }
+
