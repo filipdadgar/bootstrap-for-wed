@@ -170,7 +170,7 @@ figure {
 
 .fh5co-cover {
     background-size: contain;
-    position: relative;
+    position: sticky;
     background-repeat: no-repeat;
     }
 
@@ -673,7 +673,7 @@ figure {
 }
 
 #fh5co-started {
-    position: center;
+    position: sticky;
     background-size: cover;
     /* background-position: bottom center;*/
     background-repeat: no-repeat;
