@@ -673,10 +673,10 @@ figure {
 }
 
 #fh5co-started {
-    position: fixed center;
+    position: relative;
     background-size: cover;
-    /*   background-position: bottom center;
-     background-repeat: no-repeat; */
+    background-position: bottom center;
+    background-repeat: no-repeat; 
 }
 
 #fh5co-started .overlay {
