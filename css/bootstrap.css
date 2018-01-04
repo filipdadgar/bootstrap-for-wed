@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -7486,7 +7486,8 @@ button.close {
 
 @-ms-viewport {
   width: device-width;
-}
+  height: device-height;
+  }
 
 .visible-xs {
   display: none !important;
