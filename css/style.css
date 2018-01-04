@@ -170,7 +170,7 @@ figure {
 
 .fh5co-cover {
     background-size: contain;
-    position: center;
+    position: relative;
     background-repeat: no-repeat;
     }
 
@@ -673,7 +673,7 @@ figure {
 }
 
 #fh5co-started {
-    position: inherit;
+    position: relative;
     background-size: cover;
     /* background-position: bottom center;*/
     background-repeat: no-repeat;
