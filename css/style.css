@@ -172,7 +172,7 @@ figure {
 
 .fh5co-cover {
     background-size: contain;
-    position: absolute;
+    position: relative;
     background-repeat: no-repeat;
 }
 
@@ -682,7 +682,7 @@ figure {
 
 #fh5co-started {
     position: relative;
-    background-size: contain;
+    background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
 }
