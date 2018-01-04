@@ -682,9 +682,9 @@ figure {
 
 #fh5co-started {
     position: absolute;
-    background-size:  auto;
-    background-position: bottom center;
-    background-repeat: no-repeat;
+    background-size: auto;
+    /*   background-position: bottom center;
+     background-repeat: no-repeat; */
 }
 
 #fh5co-started .overlay {
