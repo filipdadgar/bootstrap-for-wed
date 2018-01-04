@@ -674,10 +674,12 @@ figure {
 }
 
 #fh5co-started {
-    position: relative;
-    background-size: auto;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    position: relative;
+    height: 600px;
+    width: 600px;
 }
 
 #fh5co-started .overlay {
