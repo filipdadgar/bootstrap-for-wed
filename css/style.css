@@ -82,8 +82,6 @@ figure {
   top: 0 !important;
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
-  -ms-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
-  -o-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
 }
 
@@ -178,7 +176,7 @@ figure {
 
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -455,12 +453,9 @@ figure {
   left: 0;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
   border-radius: 5px;
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-  -ms-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-  -o-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 
@@ -505,8 +500,6 @@ figure {
   border-color: #ebebeb;
   -webkit-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.09);
   -moz-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.09);
-  -ms-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.09);
-  -o-box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.09);
   box-shadow: 0 5px 15px 4px rgba(0, 0, 0, 0.09);
 }
 
@@ -578,7 +571,6 @@ figure {
   margin-bottom: 20px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -mos-border-radius: 50%;
   border-radius: 50%;
 }
 
@@ -683,6 +675,8 @@ figure {
 #fh5co-started {
     position: relative;
     background-size: cover;
+    height: auto;
+    width: auto;
     /*   background-position: bottom center;
      background-repeat: no-repeat; */
 }
